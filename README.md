@@ -35,7 +35,7 @@ The following are a list of allowed functions and system calls:
 * write (man 2 write)
 
 
-** The shell will be compiled this way:**
+**The shell will be compiled this way:**
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
