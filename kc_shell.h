@@ -6,6 +6,11 @@
 #ifndef KC_SHELL_H
 #define KC_SHELL_H
 
+/* toem_parser.c */
+int cmd_kc(info_t *, char *);
+char *char_d(char *, int, int);
+char *pathfinder(info_t *, char *, char *);
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
