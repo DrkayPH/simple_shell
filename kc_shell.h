@@ -6,10 +6,15 @@
 #ifndef KC_SHELL_H
 #define KC_SHELL_H
 
-/* toem_parser.c */
+/* kc_parser.c */
 int cmd_kc(info_t *, char *);
 char *char_d(char *, int, int);
 char *pathfinder(info_t *, char *, char *);
+/* kc_string.c */
+int _str_len(char *);
+int _str_cmp(char *, char *);
+char *_starts_with(const char *, const char *);
+char *_str_cat(char *, char *);
 
 #include <stdio.h>
 #include <stdlib.h>
