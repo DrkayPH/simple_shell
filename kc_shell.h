@@ -15,6 +15,10 @@ int _str_len(char *);
 int _str_cmp(char *, char *);
 char *_starts_with(const char *, const char *);
 char *_str_cat(char *, char *);
+/* Kc_exits.c */
+char *_strn_cpy(char *, char *, int);
+char *_strn_cat(char *, char *, int);
+char *_str_chr(char *, char);
 
 #include <stdio.h>
 #include <stdlib.h>
