@@ -120,13 +120,13 @@ list_t *node_starts_with(list_t *node, char *prefix, char c)
 }
 
 /**
- * get_node_index_custom - gets the index of a node in a linked list
+ * get_node_index_kc - gets the index of a node in a linked list
  * @head: pointer to the head of the linked list
  * @node: pointer to the node
  *
  * Returns: the index of the node, or -1 if the node is not found
  */
-int get_node_index_custom(list_t *head, list_t *node)
+int get_node_index_kc(list_t *head, list_t *node)
 {
     int index = 0;
 
